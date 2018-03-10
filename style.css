@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #333;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  background-color: slateblue;
+  color: white;
+  margin: 0;
+  padding: 0;
+  transition: .9s;
+}
+.header *{
+  padding: 10px;
+}
+
+.mode{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding:0 30%;
+  align-items: center;
+  font-size: 12px;
+
+}
+
+.mode span:hover{
+  background-color: #673AB7;
+  color: white;
+}
+
+.diff{
+  display: flex;
+}
+.diff *{
+  margin-left:20px;
+  transition: 0.5s;
+}
+
+.diff span:hover{
+  background: #673AB7;
+  color: white;
+}
+
+.colors{
+  height: 200px;
+  width: 280px;
+  background-color: #333;
+  margin: 10px auto 5px auto;
+  padding: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors div{
+  height: 80px;
+  width: 80px;
+  background:teal;
+  border-radius: 8px;
+  /* transition: .4s; */
+}
+
+.colors~p{
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  transition: 0.4s;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* #reset{
+  background-color: green;
+  color: white;
+  border-style: hidden;
+  border-radius: 3px;
+  width: 90px;
+  height: 27px;
+  margin-top: 10px;
+  display: none;
+} */
